@@ -22,13 +22,14 @@ h3 {
   margin: 0;
   font-weight: 400;
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 10vw;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
+    font-size: 4vw;
   }
 }
 
@@ -127,7 +128,7 @@ main {
   margin-top: 1rem;
 
   div {
-    font-size: 2rem;
+    font-size: 4vw;
     border: 3px solid #fff;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
@@ -184,29 +185,21 @@ footer {
     }
   }
   .footer {
-
-.copyright{
-float: left;
-padding-left: 2rem
-}
-.icons{
-  float: right;
-  padding-right: 2rem;
-  a{
-    color: #fff;
-    &:hover {
-      color : lightgreen;;
-      @include easeOut;
+    .copyright {
+      float: left;
+      padding-left: 2rem;
     }
-  }
-}
-
-    // div {
-    //   color: $secondary-color;
-    //   display: inline-block;
-    //   align-items: center;
-    //   padding: 0 25px;
-    // }
+    .icons {
+      float: right;
+      padding-right: 2rem;
+      a {
+        color: #fff;
+        &:hover {
+          color: lightgreen;
+          @include easeOut;
+        }
+      }
+    }
   }
 }
 
