@@ -394,6 +394,28 @@ footer a {
 
 footer a:hover {
   color: lightgreen;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+footer .footer .copyright {
+  float: left;
+  padding-left: 2rem;
+}
+
+footer .footer .icons {
+  float: right;
+  padding-right: 2rem;
+}
+
+footer .footer .icons a {
+  color: #fff;
+}
+
+footer .footer .icons a:hover {
+  color: lightgreen;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 @media screen and (min-width: 1171px) {
